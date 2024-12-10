@@ -1,7 +1,7 @@
 import styles from "/src/pages/Home.module.css";
 import Logo from "../components/Logo/logo";
 import SearchBar from "../components/SearchBar/SearchBar";
-import Filter from "../components/Filter/Filter";
+import Filter from "../components/Filter/filter";
 
 function home() {
   return (
@@ -15,7 +15,7 @@ function home() {
         <SearchBar />
       </header>
       <main>
-        <section className={styles.filterContainer}>
+        <section className={styles.filter}>
           <Filter />
         </section>
         {/* <section className="search-bar"></section> */}
